@@ -1,4 +1,4 @@
-🚀 **Instructor Effectiveness Analysis using Machine Learning**
+🚀 ***Instructor Effectiveness Analysis using Machine Learning***
 
 
 
@@ -12,6 +12,8 @@
 This project aims to evaluate instructor effectiveness using data-driven insights from student engagement, performance, and feedback metrics.
 
 The goal is to move beyond subjective evaluation and build a scalable, data-backed system for identifying high-performing instructors.
+
+
 
 🎯 Objective
 
@@ -29,6 +31,9 @@ High
 
 Interpret results for real-world EdTech applications
 
+
+
+
 📂 Dataset Features
 Category	Features
 Engagement	completion_rate, avg_watch_time, forum_activity_rate
@@ -36,6 +41,10 @@ Performance	avg_quiz_score, avg_score_improvement
 Participation	assignment_submission_rate
 Feedback	avg_feedback_score, feedback_response_rate
 Risk	dropout_rate
+
+
+
+
 ⚙️ Workflow
 🔍 1. Exploratory Data Analysis (EDA)
 
@@ -45,6 +54,8 @@ Correlation analysis using heatmaps
 
 Identified key relationships between engagement and performance
 
+
+
 🧠 2. Instructor Effectiveness Definition
 
 Combined multiple metrics into a single effectiveness score
@@ -53,11 +64,16 @@ Applied MinMax normalization for fair comparison
 
 Converted scores into Low / Medium / High tiers
 
+
+
+
 🔄 3. Data Aggregation
 
 Aggregated batch-level data → instructor-level
 
 Used mean aggregation to capture overall performance
+
+
 
 🤖 4. Machine Learning Model
 
@@ -68,6 +84,8 @@ Task: Multi-class classification
 Input: Instructor-level features
 
 Output: Effectiveness tier
+
+
 
 📊 5. Model Evaluation
 
@@ -81,6 +99,9 @@ Recall
 
 F1-score
 
+
+
+
 📈 Key Insights
 
 📌 High completion rate strongly indicates effective teaching
@@ -90,6 +111,8 @@ F1-score
 📌 High dropout negatively impacts effectiveness
 
 📌 Learning improvement is a critical success factor
+
+
 
 🧩 Feature Importance
 
@@ -105,6 +128,8 @@ Watch Time
 
 These features reflect engagement + learning quality, which define effective teaching.
 
+
+
 ⚠️ Limitations
 
 Does not account for course difficulty
@@ -114,6 +139,8 @@ Some features depend on student behavior
 Lacks qualitative teaching evaluation
 
 Risk of metric manipulation (gaming the system)
+
+
 
 💡 Future Improvements
 
